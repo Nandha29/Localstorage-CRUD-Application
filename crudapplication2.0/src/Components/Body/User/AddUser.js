@@ -1,9 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AddUser = () => {
   return (
     <div>
       <form>
+        <button>
+          <Link to="/user"> X</Link>
+        </button>
         <div className="userDetails">
           <label>User name:</label>
           <input placeholder="Username" />
